@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Draw On Your Web",
+  "version": "1.0",
+  "description": "Draw freely on any webpage",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "Toggle Drawing",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
